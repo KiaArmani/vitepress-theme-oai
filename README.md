@@ -2,6 +2,8 @@
 
 Installable VitePress theme extracted from the Motion documentation.
 
+Published on npm as [`vitepress-theme-oai@0.1.0`](https://www.npmjs.com/package/vitepress-theme-oai/v/0.1.0).
+
 ## Install
 
 ```sh

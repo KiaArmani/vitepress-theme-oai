@@ -28,5 +28,5 @@
     "vitepress": "^2.0.0-alpha.12",
     "vue": "^3.5.20"
   },
-  "license": "UNLICENSED"
+  "license": "AGPL-3.0-only"
 }
