@@ -1,0 +1,32 @@
+{
+  "name": "vitepress-theme-oai",
+  "version": "0.1.0",
+  "description": "Installable VitePress theme extracted from the Motion documentation.",
+  "type": "module",
+  "files": [
+    "theme",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./theme/index.js"
+    },
+    "./style.css": "./theme/style.css",
+    "./components/*": "./theme/components/*",
+    "./theme/*": "./theme/*"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "peerDependencies": {
+    "vitepress": "^2.0.0-alpha.12",
+    "vue": "^3.5.20"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.12",
+    "vue": "^3.5.20"
+  },
+  "license": "UNLICENSED"
+}
