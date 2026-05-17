@@ -1328,30 +1328,3 @@ body {
   border-bottom-color: transparent;
 }
 
-/* ==========================================================================
-   Mermaid Diagram Fixes
-   ========================================================================== */
-
-/* Contain diagrams within their container */
-.mermaid-container {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-.mermaid {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-/* Let Mermaid wrap node labels instead of forcing wide diagrams. */
-.mermaid .nodeLabel {
-  white-space: normal !important;
-  overflow-wrap: anywhere;
-}
-
-/* Override monospace font for Mermaid - use system sans-serif for better sizing */
-.mermaid svg {
-  font-family: "Geist", ui-sans-serif, system-ui, sans-serif !important;
-  max-width: 100%;
-  height: auto;
-}

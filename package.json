@@ -1,6 +1,6 @@
 {
   "name": "vitepress-theme-oai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Installable VitePress theme extracted from the Motion documentation.",
   "type": "module",
   "files": [
